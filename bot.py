@@ -129,7 +129,7 @@ async def start(bot, message):
         parse_mode="html"
     )
     await message.reply_text(
-        text=Send a youtube URL
+        text=f"Send a youtube URL"
     )
 
 @bot.on_message(filters.command('help5191') & (filters.group | filters.private))
