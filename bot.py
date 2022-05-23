@@ -129,11 +129,7 @@ async def start(bot, message):
         parse_mode="html"
     )
     await message.reply_text(
-        text="**வணக்கம் {}!**\n".format(message.chat.first_name)+C.START,
-        reply_markup=InlineKeyboardMarkup([
-            [ InlineKeyboardButton(text="💠 Movies 💠", url=f"https://t.me/Tamil_Kingdom")],
-            [ InlineKeyboardButton(text="📮 Old Series 📮", url=f"https://t.me/TamilShowss")]
-        ])
+        text=
     )
 
 @bot.on_message(filters.command('help') & (filters.group | filters.private))
