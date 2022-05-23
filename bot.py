@@ -132,7 +132,7 @@ async def start(bot, message):
         text=
     )
 
-@bot.on_message(filters.command('help') & (filters.group | filters.private))
+@bot.on_message(filters.command('help5191') & (filters.group | filters.private))
 async def help(bot, message):
     chat_id = message.from_user.id
     # Adding to DB
@@ -160,7 +160,7 @@ async def help(bot, message):
         ])
     )
 
-@bot.on_message(filters.command('brothers') & (filters.group | filters.private))
+@bot.on_message(filters.command('brothers5191') & (filters.group | filters.private))
 async def help(bot, message):
     chat_id = message.from_user.id
     # Adding to DB
